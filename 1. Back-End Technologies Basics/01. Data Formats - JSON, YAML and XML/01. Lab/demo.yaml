@@ -1,0 +1,30 @@
+- county: Switzerland
+  capital: Bern
+  population: 8.5
+  languages: 
+    - German
+    - French
+    - Italian
+    - Romansh
+- county: Canada
+  capital: Ottawa
+  population: 38
+  languages: 
+    - English
+    - French
+- county: Belgium
+  capital: Brussels
+  population: 11.5
+  languages: 
+    - Dutch
+    - French
+    - German
+- county: South Africa
+  capital: Pretoria
+  population: 59.3
+  languages: 
+    - Zulu
+    - Xhosa
+    - Afrikaans
+    - Others
+
