@@ -1,4 +1,4 @@
-function solve(num) {
+function multiplyNumberBy2(num) {
   console.log(num * 2);
 }
-solve(20);
+multiplyNumberBy2(20);
