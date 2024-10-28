@@ -1,0 +1,23 @@
+{
+  "name": "back-end-test-automation---sept-2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desito07/Back-End-Test-Automation---Sept-2024.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desito07/Back-End-Test-Automation---Sept-2024/issues"
+  },
+  "homepage": "https://github.com/desito07/Back-End-Test-Automation---Sept-2024#readme",
+  "dependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^10.7.3"
+  }
+}
