@@ -1,6 +1,6 @@
 const { expect } = require("chai");
 
-const { gameService } = require('./Games.js');
+const { gameService } = require('./Prep2.03.Games.js');
 
 describe("gameService", () => {
     // Sample data for testing
