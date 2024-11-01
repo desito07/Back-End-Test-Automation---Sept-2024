@@ -1,7 +1,9 @@
 const { expect } = require("chai");
-const movieService = require("./movies.js");
+const { movieService } = require("./Prep1.03.Movies.js"); // провери къдравите скоби и правилния път на файла, 
+// също така и в package.json
 
 describe("movieService Tests", function () {
+
   describe("getMovies()", function () {
     it("Test: Should return all movies with status 200", function () {
       const response = movieService.getMovies();
