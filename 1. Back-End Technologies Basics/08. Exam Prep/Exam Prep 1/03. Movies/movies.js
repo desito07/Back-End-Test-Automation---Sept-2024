@@ -1,5 +1,5 @@
 //Correct
-movieService = {
+const movieService = {
     movies: [
         {
             id: "1",
