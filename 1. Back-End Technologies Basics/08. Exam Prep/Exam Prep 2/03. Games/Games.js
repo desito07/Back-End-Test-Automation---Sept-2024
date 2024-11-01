@@ -58,3 +58,5 @@ const gameService = {
         };
     }
 };
+
+module.exports = { gameService };
