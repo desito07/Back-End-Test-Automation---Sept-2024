@@ -1,0 +1,14 @@
+1.	"Pizza ID 2001 is the Margherita Pizza, available in Medium size. It contains Tomato Sauce, Mozzarella Cheese and Basil. Cooking Method: Baked." 
+2.	"The Pepperoni Pizza, with ID 2002, is available in Large size. Its main ingredients are Tomato Sauce, Mozzarella Cheese and Pepperoni. Cooking Method: Baked." 
+3.	"Pizza ID 2003, the BBQ Chicken Pizza, is offered in Extra Large size. It includes BBQ Sauce, Chicken and Red Onions. Cooking Method: Grilled." 
+4.	"The Veggie Supreme Pizza, with ID 2004, comes in Small size. It features Tomato Sauce, Mozzarella Cheese and a Variety of Vegetables. Cooking Method: Baked." 
+5.	"With ID 2005, the Hawaiian Pizza is available in Medium size. Its ingredients are Tomato Sauce, Mozzarella Cheese and Pineapple. Cooking Method: Baked." 
+6.	"Pizza ID 2006, the Meat Lovers Pizza, is offered in Large size. It contains Tomato Sauce, Mozzarella Cheese and Assorted Meats. Cooking Method: Baked." 
+7.	"The Pesto Pizza, with ID 2007, comes in Small size. Its main ingredients include Pesto Sauce, Mozzarella Cheese and Sun-dried Tomatoes. Cooking Method: Grilled."
+
+
+	pizzaId: Integer (A unique identifier for each pizza) 
+	pizzaName: String (The name of the pizza) 
+	size: String (The size of the pizza, e.g., Small, Medium, Large, Extra Large) 
+	ingredients: Array of Strings (Three key ingredients used in the pizza) 
+	cookingMethod: String (The method used to cook the pizza)
