@@ -17,4 +17,8 @@ Back-End Test Automation --- Sept-2024
 	-- Workshop: Basic API Functional Testing with NUnit and RestSharp
 	-- Workshop: Performance Testing with JMeter and K6
   	-- Workshop: Advanced API Functional Testing
+<<<<<<< HEAD
 	-- Exam Preparation
+=======
+	-- Exam Preparation
+>>>>>>> bbc70a6cbdcd24e0593e99328b73b41b886302db
