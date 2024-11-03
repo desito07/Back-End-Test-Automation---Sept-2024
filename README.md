@@ -1,4 +1,4 @@
-Back-End Test Automation ---Sept-2024
+Back-End Test Automation --- Sept-2024
 
 - Back-End Technologies Basics
 	-- Data Formats: JSON, YAML and XML
@@ -6,8 +6,8 @@ Back-End Test Automation ---Sept-2024
 	-- Web Services
 	-- JavaScript Basics
 	-- JavaScript Fundamentals
-  -- Unit Testing with JavaScript
-  -- API Testing with Postman and Newman CLI
+  	-- Unit Testing with JavaScript
+  	-- API Testing with Postman and Newman CLI
 	-- Exam Preparation
 
 - Back-End Test Automation
@@ -16,5 +16,5 @@ Back-End Test Automation ---Sept-2024
 	-- Performance Testing Overview
 	-- Workshop: Basic API Functional Testing with NUnit and RestSharp
 	-- Workshop: Performance Testing with JMeter and K6
-  -- Workshop: Advanced API Functional Testing
+  	-- Workshop: Advanced API Functional Testing
 	-- Exam Preparation
