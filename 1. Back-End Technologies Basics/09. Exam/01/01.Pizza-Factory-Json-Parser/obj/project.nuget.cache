@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mTUuH/gdwGDJ9VcHyQV+iffF3fhHLF7VcmudI4v41R841St+BDtLMQeUqz3GOnWCFm33CADPxR9/CYPpnBl/Fg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DESI\\Desktop\\Back-End-Test-Automation---Sept-2024\\1. Back-End Technologies Basics\\09. Exam\\01\\01.Pizza-Factory-Json-Parser\\JsonParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DESI\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\DESI\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\DESI\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\DESI\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

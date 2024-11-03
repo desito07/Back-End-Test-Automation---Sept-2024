@@ -1,0 +1,7 @@
+1.	"Species ID 9501 is the Grey Wolf, inhabiting the Forest. It has a lifespan of 8 years. Its diet includes Rodents, Ungulates and Berries. Migrations: Long-range."
+2.	"The Humpback Whale, species ID 9502, is found in the Ocean, with a lifespan of 45 years. Its diet consists of Krill, Fish and Plankton. Migrations: Ocean crossing."
+3.	"Identified as species ID 9503, the African Elephant resides in the Savannah and has a lifespan of 65 years. Its diet is composed of Grass, Roots and Fruits. Migrations: Water tracking."
+4.	"The Bald Eagle, with species ID 9504, lives in the Forest, with a lifespan of 20 years. It feeds on Fish, Carrion and Mammals. Migrations: Lake fishing."
+5.	"Species ID 9505, the Giant Panda, lives in the Forest and has a lifespan of 20 years. Its diet mainly includes Bamboo, Shoots and Leaves. Migrations: Elevation shifts."
+6.	"The Monarch Butterfly, species ID 9506, primarily found in the Meadow, has a lifespan of 1 year. It feeds on Nectar, Milkweed and Pollen. Migrations: Mass migration."
+7.	"Species ID 9507, the Red Kangaroo, native to Grassland areas, has a lifespan of 12 years. Its diet includes Grass, Shrubs and Leaves. Migrations: Drought escape."

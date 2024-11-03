@@ -1,0 +1,7 @@
+1.	"Model ID 501: Tesla Model 3, manufactured in 2020, achieves a fuel efficiency of 130.1 MPGe. Key features include Autopilot, All-Electric, Touchscreen Display."
+2.	"Model ID 502: Honda Civic Type R, 2021 model, has a fuel efficiency of 28.2 MPG. Features: Turbocharged Engine, Sport Seats, Adaptive Suspension."
+3.	"Model ID 503: Ford F-150, year 2021, with a fuel efficiency of 24.3 MPG, features: Hybrid Powertrain, Pro Trailer Backup Assist, Touchscreen Interface."
+4.	"Model ID 504: Porsche 718 Boxster, manufactured in 2021, offers 22.4 MPG fuel efficiency. It features a Mid-Engine Layout, Convertible Top, Porsche Communication Management."
+5.	"Model ID 505: Chevrolet Corvette, 2020 model, with 19.5 MPG fuel efficiency, boasts features such as Mid-Engine Design, Leather Seating, Performance Data Recorder."
+6.	"Model ID 506: BMW 330i, from 2021, has a fuel efficiency of 30.6 MPG. Its features include TwinPower Turbo Engine, iDrive System, Dynamic Cruise Control."
+7.	"Model ID 507: Mazda MX-5 Miata, 2021 model, offers a fuel efficiency of 29.7 MPG and features like Rear-Wheel Drive, Soft Top, Lane Departure Warning System."

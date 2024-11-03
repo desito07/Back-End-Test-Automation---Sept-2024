@@ -1,4 +1,4 @@
-let products = [
+const products = [
   { id: 1, name: "Laptop", category: "Electronics", price: 999, stock: 50 },
   {
     id: 2,
@@ -19,24 +19,24 @@ let products = [
 const store = solve(products);
 
 function solve(products) {
-  // Method to filter products by category
+  // Filter products by category
   function getProductsByCategory(category) {
     return products.filter((product) => product.category === category);
   }
 
-  // Method to add a new product
+  // Add a new product
   function addProduct(id, name, category, price, stock) {
     products.push({ id, name, category, price, stock });
     return products;
   }
 
-  // Method to find product by ID
+  // Find product by ID
   function getProductById(id) {
     const product = products.find((product) => product.id === id);
     return product ? product : `Product with ID ${id} not found`;
   }
 
-  // Method to remove product by ID
+  // Remove product by ID
   function removeProductById(id) {
     const index = products.findIndex((product) => product.id === id);
     if (index !== -1) {
@@ -47,7 +47,7 @@ function solve(products) {
     }
   }
 
-  // Method to update product price by ID
+  // Update product price by ID
   function updateProductPrice(id, newPrice) {
     const product = products.find((product) => product.id === id);
     if (product) {
@@ -58,7 +58,7 @@ function solve(products) {
     }
   }
 
-  // Method to update product stock by ID
+  // Update product stock by ID
   function updateProductStock(id, newStock) {
     const product = products.find((product) => product.id === id);
     if (product) {
@@ -69,7 +69,7 @@ function solve(products) {
     }
   }
 
-  // Return an object with references to the defined methods
+  // Return references to the methods
   return {
     getProductsByCategory,
     addProduct,
@@ -79,4 +79,4 @@ function solve(products) {
     updateProductStock,
   };
 }
-console.log(store.removeProductById(2));
+console.log(JSON.stringify(store.removeProductById(2)));

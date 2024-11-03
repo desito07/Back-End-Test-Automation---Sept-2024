@@ -78,4 +78,4 @@ function solve(athletes) {
     updateAthleteCountry,
   };
 }
-console.log(olympics.updateAthleteCountry(10, "Canada"));
+console.log(JSON.stringify(olympics.addAthlete(4, "Katie Ledecky", "Swimming", 7, "USA")));
