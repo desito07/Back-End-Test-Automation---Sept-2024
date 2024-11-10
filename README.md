@@ -18,4 +18,3 @@ Back-End Test Automation --- Sept-2024
 	-- Workshop: Performance Testing with JMeter and K6
   	-- Workshop: Advanced API Functional Testing
 	-- Exam Preparation
-
