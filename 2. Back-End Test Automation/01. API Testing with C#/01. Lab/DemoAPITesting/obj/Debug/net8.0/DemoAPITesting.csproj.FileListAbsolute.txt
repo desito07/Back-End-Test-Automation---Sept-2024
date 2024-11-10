@@ -17,3 +17,4 @@ C:\Users\DESI\Desktop\Back-End-Test-Automation---Sept-2024\2. Back-End Test Auto
 C:\Users\DESI\Desktop\Back-End-Test-Automation---Sept-2024\2. Back-End Test Automation\01. API Testing with C#\01. Lab\DemoAPITesting\obj\Debug\net8.0\DemoAPITesting.genruntimeconfig.cache
 C:\Users\DESI\Desktop\Back-End-Test-Automation---Sept-2024\2. Back-End Test Automation\01. API Testing with C#\01. Lab\DemoAPITesting\obj\Debug\net8.0\ref\DemoAPITesting.dll
 C:\Users\DESI\Desktop\Back-End-Test-Automation---Sept-2024\2. Back-End Test Automation\01. API Testing with C#\01. Lab\DemoAPITesting\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\DESI\Desktop\Back-End-Test-Automation---Sept-2024\2. Back-End Test Automation\01. API Testing with C#\01. Lab\DemoAPITesting\bin\Debug\net8.0\RestSharp.dll

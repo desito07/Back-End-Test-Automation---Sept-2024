@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "G+cLmSpsCR7hpw8ApJQvmc/zgzMW3TnET7sGksZJ48LWE9ojdH9rkftc89KIwM1FzVd+mZt9NMjn3n7FJpbwwA==",
+  "dgSpecHash": "vKyv8kJCtMerKJzEMuoTe8BlCOBsfjFF8D4yvrXzI0x7hwuWxD3diBWNexdvJ7KgBlUNOJ3VhdTVlRzxBdQIqA==",
   "success": true,
   "projectFilePath": "C:\\Users\\DESI\\Desktop\\Back-End-Test-Automation---Sept-2024\\2. Back-End Test Automation\\01. API Testing with C#\\01. Lab\\DemoAPITesting\\DemoAPITesting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DESI\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\DESI\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512",
     "C:\\Users\\DESI\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
   ],
   "logs": []

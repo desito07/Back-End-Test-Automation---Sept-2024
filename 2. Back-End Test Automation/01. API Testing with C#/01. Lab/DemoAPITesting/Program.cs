@@ -1,6 +1,9 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json.Serialization;
+using RestSharp;
+using RestSharp.Authenticators;
+using System.Net.Http.Headers;
 using System.Text.Json;
 
 namespace DemoAPITesting
@@ -69,6 +72,44 @@ namespace DemoAPITesting
             var products = jsonAsString["products"].Select(t => string.Format("{0} ({1})", t["name"],string.Join(", ", t["products"])
             ));
 
+            //Executing simple HTTP GET request
+            var client = new RestClient("https://api.github.com");
+
+            var request = new RestRequest("/users/softuni/repos", Method.Get);
+
+            var response = client.Execute(request);
+
+            //Console.WriteLine(response.StatusCode);
+            //Console.WriteLine(response.Content);
+
+            //using URL segment
+            var requestURLSegments = new RestRequest("/repos/{user}/{repo}/issues/{id}", Method.Get);
+
+            requestURLSegments.AddUrlSegment("user", "testnakov");
+            requestURLSegments.AddUrlSegment("repo", "test-nakov-repo");
+            requestURLSegments.AddUrlSegment("id", 1);
+
+            var responseURLSEgment = client.Execute(requestURLSegments);
+            Console.WriteLine(responseURLSEgment.StatusCode);
+            Console.WriteLine(responseURLSEgment.Content);
+
+            //deserialing json response
+            var requestDesetializing = new RestRequest("/users/softuni/repos", Method.Get);
+            
+            var respondDeserializing = client.Execute(requestDesetializing);
+
+            var repos = JsonConvert.DeserializeObject<List<Repo>>(respondDeserializing.Content);
+
+            //http post with authenitication
+
+            var clientWithAuthentication = new RestClient(new RestClientOptions("https://api.github.com")
+            {
+                Authenticator = new HttpBasicAuthenticator("userName", "api-Token")
+            });
+
+            var postRequest = new RestRequest("/repos/testnakov/test-nakov-repo/issues", Method.Post);
+            postRequest.AddHeader("Content-type", "application/json");
+            postRequest.AddJsonBody(new { title = "SomeTitle", body = "SomeBody" });
 
         }
     }
