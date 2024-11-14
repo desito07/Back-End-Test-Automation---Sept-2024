@@ -17,7 +17,7 @@ namespace DemoAPITesting
 
             string weatherInfo = System.Text.Json.JsonSerializer.Serialize(forecast);
 
-            Console.WriteLine(weatherInfo);
+            //Console.WriteLine(weatherInfo);
 
             string jsonString = File.ReadAllText("C:\\Users\\DESI\\Desktop\\Back-End-Test-Automation---Sept-2024\\2. Back-End Test Automation\\01. API Testing with C#\\01. Lab\\demoData.json");
 
@@ -28,7 +28,7 @@ namespace DemoAPITesting
                 
             string WeatherForecastNS = JsonConvert.SerializeObject(forecastNS, Formatting.Indented);
 
-            Console.WriteLine(WeatherForecastNS);
+            //Console.WriteLine(WeatherForecastNS);
 
             jsonString = File.ReadAllText("C:\\Users\\DESI\\Desktop\\Back-End-Test-Automation---Sept-2024\\2. Back-End Test Automation\\01. API Testing with C#\\01. Lab\\demoData.json");
 
@@ -62,7 +62,7 @@ namespace DemoAPITesting
                 Formatting = Formatting.Indented,
             });
 
-            Console.WriteLine(snakeCaseJson);
+            //Console.WriteLine(snakeCaseJson);
 
             //JObject
             var jsonAsString = JObject.Parse(@"{'products': [
@@ -90,8 +90,8 @@ namespace DemoAPITesting
             requestURLSegments.AddUrlSegment("id", 1);
 
             var responseURLSEgment = client.Execute(requestURLSegments);
-            Console.WriteLine(responseURLSEgment.StatusCode);
-            Console.WriteLine(responseURLSEgment.Content);
+            //Console.WriteLine(responseURLSEgment.StatusCode);
+            //Console.WriteLine(responseURLSEgment.Content);
 
             //deserialing json response
             var requestDesetializing = new RestRequest("/users/softuni/repos", Method.Get);
@@ -101,16 +101,19 @@ namespace DemoAPITesting
             var repos = JsonConvert.DeserializeObject<List<Repo>>(respondDeserializing.Content);
 
             //http post with authenitication
-
             var clientWithAuthentication = new RestClient(new RestClientOptions("https://api.github.com")
             {
-                Authenticator = new HttpBasicAuthenticator("userName", "api-Token")
+                Authenticator = new HttpBasicAuthenticator("desito07", "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")
             });
 
             var postRequest = new RestRequest("/repos/testnakov/test-nakov-repo/issues", Method.Post);
             postRequest.AddHeader("Content-type", "application/json");
             postRequest.AddJsonBody(new { title = "SomeTitle", body = "SomeBody" });
 
+            var responsePost = clientWithAuthentication.Execute(postRequest);
+
+            Console.WriteLine(responsePost.StatusCode); //Forbidden status 403
+            Console.WriteLine(responsePost.Content); //Forbidden status 403
         }
     }
 }
