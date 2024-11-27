@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DESI\\Desktop\\Back-End-Test-Automation---Sept-2024\\2. Back-End Test Automation\\01. API Testing with C#\\01. Lab\\DemoAPITesting\\DemoAPITesting.csproj": {}
+    "C:\\Users\\Raya\\OneDrive\\Desktop\\Desi's stuff\\QA\\API Testing with C#\\DemoAPITesting\\DemoAPITesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DESI\\Desktop\\Back-End-Test-Automation---Sept-2024\\2. Back-End Test Automation\\01. API Testing with C#\\01. Lab\\DemoAPITesting\\DemoAPITesting.csproj": {
+    "C:\\Users\\Raya\\OneDrive\\Desktop\\Desi's stuff\\QA\\API Testing with C#\\DemoAPITesting\\DemoAPITesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DESI\\Desktop\\Back-End-Test-Automation---Sept-2024\\2. Back-End Test Automation\\01. API Testing with C#\\01. Lab\\DemoAPITesting\\DemoAPITesting.csproj",
+        "projectUniqueName": "C:\\Users\\Raya\\OneDrive\\Desktop\\Desi's stuff\\QA\\API Testing with C#\\DemoAPITesting\\DemoAPITesting.csproj",
         "projectName": "DemoAPITesting",
-        "projectPath": "C:\\Users\\DESI\\Desktop\\Back-End-Test-Automation---Sept-2024\\2. Back-End Test Automation\\01. API Testing with C#\\01. Lab\\DemoAPITesting\\DemoAPITesting.csproj",
-        "packagesPath": "C:\\Users\\DESI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DESI\\Desktop\\Back-End-Test-Automation---Sept-2024\\2. Back-End Test Automation\\01. API Testing with C#\\01. Lab\\DemoAPITesting\\obj\\",
+        "projectPath": "C:\\Users\\Raya\\OneDrive\\Desktop\\Desi's stuff\\QA\\API Testing with C#\\DemoAPITesting\\DemoAPITesting.csproj",
+        "packagesPath": "C:\\Users\\Raya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Raya\\OneDrive\\Desktop\\Desi's stuff\\QA\\API Testing with C#\\DemoAPITesting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DESI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Raya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -58,7 +60,7 @@
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -77,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

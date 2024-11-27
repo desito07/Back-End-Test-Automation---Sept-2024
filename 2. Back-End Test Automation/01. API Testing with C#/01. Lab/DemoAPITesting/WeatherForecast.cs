@@ -1,16 +1,20 @@
 ﻿using Newtonsoft.Json;
-using System.Text.Json.Serialization;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace DemoAPITesting
 {
     public class WeatherForecast
     {
+
         public DateTime Date { get; set; } = DateTime.Now;
 
         //[JsonProperty("temperature_c")]
-        public int TemperatureC { get; set; } = 30;
+        public int TemperatureC { get; set; }
 
-        //[JsonIgnore]    
         public string Summary { get; set; } = "Hot summer days";
     }
 }
