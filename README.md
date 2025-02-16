@@ -2,7 +2,7 @@ Back-End Test Automation --- Sept-2024
 
 - Back-End Technologies Basics
 	-- Data Formats: JSON, YAML and XML
-	-- Containers, Docker and Docker Compose
+	-- Containers, Docker, and Docker Compose
 	-- Web Services
 	-- JavaScript Basics
 	-- JavaScript Fundamentals
